@@ -1,3 +1,4 @@
+![image](example.png)
 # Facebook Marketplace AI Chrome Extension
 ## For analyzing listings, generating:
 - ### an offer price

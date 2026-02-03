@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Marketplace Deal Rater",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.facebook.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/marketplace/*"],
+      "js": ["overlay.js", "content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
